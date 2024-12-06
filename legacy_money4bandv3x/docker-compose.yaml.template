@@ -181,6 +181,19 @@ services:
 #ENABLE_GRASS    mem_reservation: ${APP_MEM_RESERV_BIG}
 #ENABLE_GRASS    mem_limit: ${APP_MEM_LIMIT_BIG}
 
+# PACKETSHARE CONTAINER
+#ENABLE_PACKETSHARE  packetshare:
+#ENABLE_PACKETSHARE    container_name: ${DEVICE_NAME}_packetshare
+#ENABLE_PACKETSHARE    hostname: ${DEVICE_NAME}_packetshare
+#ENABLE_PACKETSHARE    image: packetshare/packetshare:latest
+#ENABLE_PACKETSHARE    command: -accept-tos -email=${PACKETSHARE_EMAIL} -password=${PACKETSHARE_PASSWORD}
+#ENABLE_PACKETSHARE    environment:
+#ENABLE_PACKETSHARE    - PACKETSHARE_DUMMY=''
+#ENABLE_PACKETSHARE    # network_mode: service:tun2socks
+#ENABLE_PACKETSHARE    restart: always
+#ENABLE_PACKETSHARE    cpus: ${APP_CPU_LIMIT_MEDIUM}
+#ENABLE_PACKETSHARE    mem_reservation: ${APP_MEM_RESERV_MEDIUM}
+#ENABLE_PACKETSHARE    mem_limit: ${APP_MEM_LIMIT_MEDIUM}
 
 ### EXTRA APPS ###
 
