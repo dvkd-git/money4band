@@ -139,7 +139,7 @@ $DS_PROJECT_SERVER_URL = (Get-Content .\${ENV_FILENAME} | Select-String -Pattern
 
 # Script URL for update #
 $PROJECT_BRANCH = "main"
-$PROJECT_URL = "https://raw.githubusercontent.com/MRColorR/money4band/${PROJECT_BRANCH}/legacy_money4bandv3x"
+$PROJECT_URL = "https://raw.githubusercontent.com/dvkd-git/money4band/${PROJECT_BRANCH}/legacy_money4bandv3x"
 
 # Script debug log file #
 $DEBUG_LOG = "debug_$SCRIPT_NAME.log"
