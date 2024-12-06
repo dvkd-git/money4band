@@ -128,7 +128,7 @@ readonly DS_PROJECT_SERVER_URL=$(grep -oP 'DS_PROJECT_SERVER_URL=\K[^#\r]+' ${EN
 
 # Script URL for update #
 readonly PROJECT_BRANCH="main"
-readonly PROJECT_URL="https://raw.githubusercontent.com/MRColorR/money4band/${PROJECT_BRANCH}"
+readonly PROJECT_URL="https://raw.githubusercontent.com/MRColorR/money4band/${PROJECT_BRANCH}/legacy_money4bandv3x"
 
 
 # Script log file #
